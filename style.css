@@ -75,14 +75,27 @@ input.button:hover{
 .secondary-footer{
   height: auto;
 }
-.location-span{
-  margin-left: 30px;
+span{
   font-size: 15px;
-  text-align: left;
-  height: 35px;
   line-height: 40px;
-  position: absolute;
-  left: 0;
   font-family: arial, sans-serif;
   color: #0000008a;
+}
+.location-span{
+  margin-left: 30px;
+  text-align: left;
+  height: 35px;
+  position: absolute;
+  left: 0;
+}
+.options{
+  text-align: left;
+  float: left;
+}
+.option{
+  padding-left: 27px;
+}
+.info-guff{
+  float:right;
+  margin-right: 30px;
 }
