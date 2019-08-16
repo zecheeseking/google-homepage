@@ -1,0 +1,15 @@
+#logo{
+  padding-top: 96px;
+}
+input{
+  border-width: 0px;
+
+}
+#search-box-div{
+  height: 44px;
+  width: 482px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #dedede;
+  border-width: 1px;
+}
