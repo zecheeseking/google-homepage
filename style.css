@@ -1,6 +1,9 @@
 body, td, a, p .h{
   font-family: arial,sans-serif;
 }
+body{
+  margin: 0;
+}
 #logo-div{
   padding-top: 96px;
 }
@@ -31,7 +34,6 @@ input[type="text"]{
 }
 .language-select{
   font-size: small;
-  padding
 }
 .language-select a{
   padding: 0 3px;
@@ -53,4 +55,22 @@ input[type="submit"]{
 input.button:hover{
   color: black;
   border-color: #dad8d8;
+}
+.footer-wrapper{
+  height: 81px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+.footer{
+  background-color: #f2f2f2;
+  height: 80px;
+}
+.secondary-footer-wrapper{
+
+}
+.secondary-footer{
+
 }
