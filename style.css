@@ -1,3 +1,6 @@
+body, td, a, p .h{
+  font-family: arial,sans-serif;
+}
 #logo-div{
   padding-top: 96px;
 }
@@ -24,7 +27,14 @@ input[type="text"]{
   margin-top: 20px;
 }
 .buttonsdiv{
-  padding-top: 25px;width: 487px;
+  padding-top: 25px;width: 487px;height 88px;
+}
+.language-select{
+  font-size: small;
+  padding
+}
+.language-select a{
+  padding: 0 3px;
 }
 input[type="submit"]{
   height: 36px;
@@ -37,6 +47,8 @@ input[type="submit"]{
   border-style: solid;
   border-color: #F2F2F2;
   color: #4F6368;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 input.button:hover{
   color: black;
