@@ -19,14 +19,38 @@ list-style-type: none;
   padding-right: 30px;
 }
 
-#footer-wrapper{
+.footer-wrapper{
   bottom: 0px;
   position: fixed;
   width: 100%;
+  line-height: 40px;
+  background: #f2f2f2;
+  color: rgba(0,0,0,0.54);
+}
+
+input[type="submit"]{
+  padding: 0 16px;
+  background-color: rgb(242,242,242);
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgb(242,242,242);
+  margin: 11px 6px;
+  height: 36px;
+  color: rgb(95, 99, 104);
+  font-size: 14px;
 }
 
 #logo{
   padding-top: 109px;
+}
+
+#left-options{
+  float:left;
+}
+
+#right-options{
+  float:right;
 }
 
 #more-button{
