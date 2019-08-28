@@ -28,7 +28,7 @@ list-style-type: none;
   color: rgba(0,0,0,0.54);
 }
 
-input[type="submit"]{
+.button{
   padding: 0 16px;
   background-color: rgb(242,242,242);
   border-style: solid;
