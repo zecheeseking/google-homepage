@@ -42,8 +42,29 @@ list-style-type: none;
   font-size: 14px;
 }
 
+#search-box{
+  border: 1px solid #dfe1e5;
+  width: 400px;
+  border-radius: 24px;
+  height: 44px;
+}
+
+#search-box:hover{
+  border-style:
+}
+
 input[type="text"]{
-  
+  width: 90%;
+  height: 80%;
+  border-width: 0;
+  margin: 5px 5px 5px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+input:focus{
+  outline:none;
 }
 
 #sign-in-button{
