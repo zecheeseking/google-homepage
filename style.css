@@ -12,6 +12,7 @@ list-style-type: none;
 .list-element{
   display : inline;
   padding: 0px 0px 0px 15px;
+  line-height: 28px;
 }
 
 .uppernavbar{
@@ -39,6 +40,18 @@ list-style-type: none;
   height: 36px;
   color: rgb(95, 99, 104);
   font-size: 14px;
+}
+
+input[type="text"]{
+  
+}
+
+#sign-in-button{
+  margin: 0;
+  background-color: rgb(66, 133, 244);
+  border-color: rgb(66, 133, 244);
+  color: white;
+  font-weight: 700;
 }
 
 #logo{
