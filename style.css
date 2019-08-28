@@ -3,9 +3,38 @@ p, a, div {
   font-family: Arial, sans-serif;
 }
 
+ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.list-element{
+  display : inline;
+  padding: 0px 0px 0px 15px;
+}
+
+.uppernavbar{
+  float : right;
+  padding-right: 30px;
+}
+
+#footer-wrapper{
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+#logo{
+  padding-top: 109px;
+}
+
 #more-button{
    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
    height: 30px;
    width: 30px;
    background-position: -132px -38px;
+   display : inline-block;
+   vertical-align: middle;
+   color : rgba(34, 34, 34);
 }
