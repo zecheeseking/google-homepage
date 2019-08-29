@@ -27,6 +27,11 @@ list-style-type: none;
   line-height: 40px;
   background: #f2f2f2;
   color: rgba(0,0,0,0.54);
+  border-top: 1px solid #e4e4e4;
+}
+
+.secondary-footer{
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .button{
@@ -69,6 +74,8 @@ input:focus{
 
 #sign-in-button{
   margin: 0;
+  display: inline-block;
+  height: 30px;
   background-color: rgb(66, 133, 244);
   border-color: rgb(66, 133, 244);
   color: white;
@@ -85,6 +92,7 @@ input:focus{
 
 #right-options{
   float:right;
+  padding-right: 30px;
 }
 
 #more-button{
