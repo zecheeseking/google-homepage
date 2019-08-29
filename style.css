@@ -1,6 +1,7 @@
 p, a, div {
   font-size: 13px;
   font-family: Arial, sans-serif;
+  text-decoration: none;
 }
 
 ul{
