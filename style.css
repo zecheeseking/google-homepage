@@ -19,6 +19,7 @@ list-style-type: none;
 .uppernavbar{
   float : right;
   padding-right: 30px;
+  padding-top: 30px;
 }
 
 .footer-wrapper{
